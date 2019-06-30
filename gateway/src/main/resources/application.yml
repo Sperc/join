@@ -1,0 +1,20 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+
+zuul:
+  sensitiveHeaders: Cookie,Set-Cookie
+  ignored-services: "*"
+  routes:
+    reservation-service:
+      path: /reserve/**
+      service-id: reservation-service
+      retryable: true
+    data-management:
+      path: /data/**
+      service-id: data-management
+      retryable: true
+  host:
+    connect-timeout-millis: 10000
+

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c22f846-c804-43a7-8951-1355667c5bfd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/security/AppUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/security/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/users/AppUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/users/UserContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/users/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/users/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/users/UsersFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/users/dto/AddUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/users/dto/AddUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/infrastructure/controllers/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-properties/data-management-alfa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-properties/data-management-alfa.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-properties/data-management-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-properties/data-management-local.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/data/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/data/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/data/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/DataManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/DataManagementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/base/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/base/DataException.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/base/DataException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/playground/Playground.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/playground/PlaygroundFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/playground/PlaygroundRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/playground/PlaygroundService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/playground/dto/AddPlaygroundCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/playground/dto/PlaygroundContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/user/AppUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/application/user/AppUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/infrastructure/ApiErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/infrastructure/ApiErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/infrastructure/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/infrastructure/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/infrastructure/BaseControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/infrastructure/BaseControllerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/infrastructure/controllers/PlaygroundController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/sosnowka/data/infrastructure/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/test/java/com/sosnowka/data/DataManagementApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/test/java/com/sosnowka/data/DataManagementApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/config-properties" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c22f846-c804-43a7-8951-1355667c5bfd" name="Default Changelist" comment="" />
+      <created>1554749186377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554749186377</updated>
+      <workItem from="1554749187761" duration="45000" />
+      <workItem from="1557571744367" duration="1094000" />
+      <workItem from="1557690727593" duration="228000" />
+      <workItem from="1557731277685" duration="343000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1710000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="10" />
+      <window_info anchor="bottom" id="Gerrit" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Mongo Explorer" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

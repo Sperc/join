@@ -1,0 +1,22 @@
+server:
+  port: 8082
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+spring:
+  rabbitmq:
+    password: "ngp9247X^9QJ462+2Y3E"
+    username: "rabbitmq"
+    host: localhost
+  cloud:
+    stream:
+      bindings:
+        add-user:
+          destination: add-user-exchange
+          group: notification-group
+          contentType: application/json
+        add-user-handler:
+          destination: add-user-exchange
+          group: notification-group
+          contentType: application/json
